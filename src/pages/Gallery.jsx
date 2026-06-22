@@ -45,7 +45,7 @@ export default function Gallery() {
       <PageHeader
         eyebrow="Gallery"
         title="A look at our work"
-        subtitle="Tap any photo to take a closer look. These will be swapped for real photos of Thomas’s gardens."
+        subtitle="Tap any photo to take a closer look."
         image="/images/header-gallery.jpg"
       />
 
