@@ -1,0 +1,12 @@
+{
+  // Tells Cloudflare to publish this as a static site (the built `dist` folder)
+  // rather than trying to auto-configure a Vite/Workers integration.
+  "name": "thomasfagangardening",
+  "compatibility_date": "2025-06-01",
+  "assets": {
+    "directory": "./dist",
+    // Serve index.html for unknown routes so React Router (SPA) works on refresh
+    // and deep links.
+    "not_found_handling": "single-page-application"
+  }
+}
